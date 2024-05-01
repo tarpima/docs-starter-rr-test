@@ -1,0 +1,7 @@
+node_modules
+
+/.cache
+.vercel
+.idea
+/build
+.env
