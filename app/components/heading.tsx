@@ -29,7 +29,7 @@ export function Heading({ as, children }: HeadingProps) {
       {children}
       <a
         href={`#${slug}`}
-        aria-label="Anchor"
+        //aria-label="Anchor"
         className="anchor ml-[10px] text-[length:inherit] text-gray-500 !no-underline opacity-0 transition-opacity duration-100 after:text-gray-500 after:content-['#'] group-hover:opacity-100"
       >
         <span className="sr-only">Anchor</span>
